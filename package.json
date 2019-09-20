@@ -1,0 +1,38 @@
+{
+	"name": "fs.copy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"linter": "eslint index.js",
+		"test": "node test.js"
+	},
+	"keywords": [],
+	"author": "anzerr",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
+		"fs.remove": "git+https://github.com/anzerr/fs.remove.git",
+		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
+	},
+	"dependencies": {
+		"fs.mkdirp": "git+https://github.com/anzerr/fs.mkdirp.git",
+		"fs.promisify": "git+https://git@github.com/anzerr/fs.promisify.git",
+		"type.util": "git+https://github.com/anzerr/type.util.git"
+	},
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"engines": {
+		"node": ">= 0.10.0"
+	},
+	"types": "index.d.ts",
+	"bugs": {
+		"url": "https://github.com/undefined/issues"
+	},
+	"homepage": "https://github.com/undefined#readme"
+}
