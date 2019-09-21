@@ -4,7 +4,7 @@
 ![GitHub Actions status | publish](https://github.com/anzerr/fs.copy/workflows/publish/badge.svg)
 ![GitHub Actions status | test](https://github.com/anzerr/fs.copy/workflows/test/badge.svg)
 
-copy a directory or file to a location
+Copy a directory or file to a location
 
 #### `Install`
 ``` bash
