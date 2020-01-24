@@ -6,9 +6,9 @@ const copy = require('./index.js'),
 	promise = require('promise.util');
 
 promise.measure(() => {
-	return copy('./node_modules/fs.remove', './test', {max: 5}).then(() => {
+	return copy('./node_modules/@anzerr/fs.remove', './test', {max: 5}).then(() => {
 		return Promise.all([
-			hash('./node_modules/fs.remove', {raw: true, max: 5}),
+			hash('./node_modules/@anzerr/fs.remove', {raw: true, max: 5}),
 			hash('./test', {raw: true, max: 5})
 		]);
 	}).then((res) => {
