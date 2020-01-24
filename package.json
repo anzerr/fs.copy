@@ -1,19 +1,32 @@
 {
 	"name": "fs.copy",
 	"version": "1.0.3",
-	"description": "",
+	"description": "util to copy directories or files",
+	"keywords": [
+		"copy",
+		"cp",
+		"fs",
+		"nodejs",
+		"util"
+	],
+	"homepage": "https://github.com/anzerr/fs.copy#readme",
+	"bugs": {
+		"url": "https://github.com/anzerr/fs.copy/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:anzerr/fs.copy.git"
+	},
+	"license": "MIT",
+	"author": "anzerr",
 	"main": "index.js",
+	"types": "index.d.ts",
 	"scripts": {
 		"linter": "eslint index.js",
 		"test": "npm run linter && node test.js"
 	},
-	"keywords": [],
-	"author": "anzerr",
-	"license": "MIT",
-	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
-		"fs.remove": "git+https://github.com/anzerr/fs.remove.git",
-		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
+	"eslintConfig": {
+		"extends": "eslint-config-basic"
 	},
 	"dependencies": {
 		"fs.mkdirp": "git+https://github.com/anzerr/fs.mkdirp.git",
@@ -21,19 +34,12 @@
 		"promise.util": "git+https://git@github.com/anzerr/promise.util.git",
 		"type.util": "git+https://github.com/anzerr/type.util.git"
 	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
-	},
-	"repository": {
-		"type": "git",
-		"url": ""
+	"devDependencies": {
+		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
+		"fs.remove": "git+https://github.com/anzerr/fs.remove.git",
+		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
 	},
 	"engines": {
 		"node": ">= 0.10.0"
-	},
-	"types": "index.d.ts",
-	"bugs": {
-		"url": "https://github.com/undefined/issues"
-	},
-	"homepage": "https://github.com/undefined#readme"
+	}
 }
