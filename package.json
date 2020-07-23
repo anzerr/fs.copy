@@ -1,6 +1,6 @@
 {
 	"name": "fs.copy",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "util to copy directories or files",
 	"keywords": [
 		"copy",
