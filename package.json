@@ -22,7 +22,7 @@
 	"main": "index.js",
 	"types": "index.d.ts",
 	"scripts": {
-		"test": "npm run linter && node test.js"
+		"test": "node test.js"
 	},
 	"dependencies": {
 		"fs.mkdirp": "git+https://github.com/anzerr/fs.mkdirp.git",
