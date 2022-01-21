@@ -22,11 +22,7 @@
 	"main": "index.js",
 	"types": "index.d.ts",
 	"scripts": {
-		"linter": "eslint index.js",
 		"test": "npm run linter && node test.js"
-	},
-	"eslintConfig": {
-		"extends": "eslint-config-basic"
 	},
 	"dependencies": {
 		"fs.mkdirp": "git+https://github.com/anzerr/fs.mkdirp.git",
@@ -35,7 +31,6 @@
 		"type.util": "git+https://github.com/anzerr/type.util.git"
 	},
 	"devDependencies": {
-		"eslint-config-basic": "git+https://git@github.com/anzerr/eslintrc.git",
 		"fs.remove": "git+https://github.com/anzerr/fs.remove.git",
 		"fs.hash": "git+https://github.com/anzerr/fs.hash.git"
 	},
